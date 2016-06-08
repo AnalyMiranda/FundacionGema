@@ -1,0 +1,31 @@
+#back-green{
+	background-image: url(../img/fondo2.png);
+	background-attachment: fixed;/*para que sea estático*/
+	background-position: center;
+	padding: 80px 0px;
+	.valores-text {
+		margin-top: 50px;
+
+		.salto {
+			margin-bottom: 30px;
+		}
+
+		img{
+			width: 20%;
+			height: 5%;
+			margin-top: 30px;
+		}
+	}
+	h2, h3 {
+		color: #2D2D2C;
+	}
+}
+hr {
+		width: 100%;
+		border: 1px solid  #2D2D2C;
+	}
+.boton-flecha {
+	margin-top: -70px;
+	margin-left: 520px;
+}
+

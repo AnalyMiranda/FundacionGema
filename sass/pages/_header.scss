@@ -1,0 +1,52 @@
+$container: 40px 0px;
+h1, h2, h3 {
+    font-weight: bold;
+}
+h2 {
+    color: #DC62A2;
+}
+h3 {
+    color: #fff;
+}
+body {
+    color:  #2D2D2C;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+header {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    color: #FDFBF9;
+    background-image: url(../img/wallPaper.png);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+	.logo_icono {
+	padding: 250px 0px;
+	width: 250px;
+	margin: auto;
+	}
+    .iconos_redes {
+        position: absolute;
+        bottom: 150px;
+        right: 0px;
+        font-size: 30px;
+
+        .fa-facebook-square:hover {
+            color: #3b5998;
+        }
+        .fa-twitter-square:hover {
+            color: #55acee;
+        }
+        .fa-google-plus-square:hover {
+            color: #dc4e41;
+        }
+    }
+}

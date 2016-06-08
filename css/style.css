@@ -1,0 +1,293 @@
+@charset "UTF-8";
+#mainNav {
+  background-color: #280125;
+  border: transparent;
+  padding: 25px 0px 20px; }
+  #mainNav img {
+    width: 200px;
+    margin-top: -30px;
+    margin-left: 20px; }
+  #mainNav a {
+    color: #eee; }
+    #mainNav a:hover {
+      color: #00A088; }
+    #mainNav a.page-scroll {
+      background-color: transparent; }
+
+h1, h2, h3 {
+  font-weight: bold; }
+
+h2 {
+  color: #DC62A2; }
+
+h3 {
+  color: #fff; }
+
+body {
+  color: #2D2D2C; }
+
+a {
+  text-decoration: none;
+  color: #fff; }
+
+header {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  text-align: center;
+  color: #FDFBF9;
+  background-image: url(../img/wallPaper.png);
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover; }
+  header .logo_icono {
+    padding: 250px 0px;
+    width: 250px;
+    margin: auto; }
+  header .iconos_redes {
+    position: absolute;
+    bottom: 150px;
+    right: 0px;
+    font-size: 30px; }
+    header .iconos_redes .fa-facebook-square:hover {
+      color: #3b5998; }
+    header .iconos_redes .fa-twitter-square:hover {
+      color: #55acee; }
+    header .iconos_redes .fa-google-plus-square:hover {
+      color: #dc4e41; }
+
+#equipo {
+  padding: 80px 0px; }
+  #equipo .profile img {
+    margin: 60px 0px;
+    width: 200px; }
+
+.hr-green {
+  width: 100%;
+  border: 1px solid #03947F; }
+
+#metas {
+  padding: 80px 0px; }
+  #metas .margin-top40 {
+    margin: 40px 0px; }
+  #metas .fase {
+    margin-left: 200px;
+    margin-top: 40px; }
+    #metas .fase img {
+      width: 200px; }
+  #metas .text-green {
+    color: #03947F;
+    /*	font-size: 16px;*/ }
+  #metas .margin-left100 {
+    margin-left: 80px; }
+  #metas .botones {
+    margin: 40px 0px; }
+    #metas .botones h4 {
+      margin-top: 40px;
+      padding: 0px 150px;
+      line-height: 1.5; }
+    #metas .botones img {
+      width: 250px; }
+
+#back-green {
+  background-image: url(../img/fondo2.png);
+  background-attachment: fixed;
+  /*para que sea est├ítico*/
+  background-position: center;
+  padding: 80px 0px; }
+  #back-green .valores-text {
+    margin-top: 50px; }
+    #back-green .valores-text .salto {
+      margin-bottom: 30px; }
+    #back-green .valores-text img {
+      width: 20%;
+      height: 5%;
+      margin-top: 30px; }
+  #back-green h2, #back-green h3 {
+    color: #2D2D2C; }
+
+hr {
+  width: 100%;
+  border: 1px solid  #2D2D2C; }
+
+.boton-flecha {
+  margin-top: -70px;
+  margin-left: 520px; }
+
+#contacto {
+  background-image: url(../img/fondo2.png);
+  background-attachment: fixed;
+  /*para que sea est├ítico*/
+  background-position: center;
+  padding: 70px 0px; }
+  #contacto .well {
+    margin-top: 40px;
+    background-color: #2D2D2C;
+    border: transparent; }
+    #contacto .well img {
+      width: 80px;
+      padding: 20px 0px; }
+  #contacto .mapa {
+    margin-top: 40px;
+    width: 100%;
+    height: 200px; }
+  #contacto .iconos {
+    color: #fff;
+    margin: 40px 0px;
+    line-height: 2.5; }
+    #contacto .iconos span {
+      margin-left: 10px; }
+  #contacto .iconos_redes {
+    font-size: 35px; }
+    #contacto .iconos_redes i {
+      color: #2D2D2C; }
+    #contacto .iconos_redes .fa-facebook-square:hover {
+      color: #3b5998; }
+    #contacto .iconos_redes .fa-twitter-square:hover {
+      color: #55acee; }
+    #contacto .iconos_redes .fa-google-plus-square:hover {
+      color: #dc4e41; }
+  #contacto h2 {
+    color: #2D2D2C; }
+
+#footer {
+  background-color: #2D2D2C;
+  padding: 15px 0px;
+  color: #fff; }
+  #footer .fa-facebook-square {
+    color: #3b5998; }
+  #footer .fa-twitter-square {
+    color: #55acee; }
+  #footer .fa-google-plus-square {
+    color: #dc4e41; }
+
+#hacemos {
+  padding: 60px 0px;
+  margin: 0px;
+  background-image: url("../img/fondo2.png");
+  background-attachment: fixed;
+  /*para que sea est├ítico*/
+  background-position: center; }
+  #hacemos h2 {
+    color: #2D2D2C;
+    font-size: bold;
+    margin-top: 40px; }
+  #hacemos hr {
+    border: 1px solid #2D2D2C;
+    width: 100%; }
+  #hacemos p {
+    font-size: 20px;
+    color: #2D2D2C;
+    padding-top: 50px; }
+
+#img h6 {
+  color: #2D2D2C; }
+#img img {
+  position: relative; }
+#img .mod {
+  padding: 0px; }
+#img button {
+  color: #FFF;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #704367;
+  padding: 10px 0px 40px;
+  border: 1px solid #D8BFD8; }
+#img button:hover {
+  background-color: #D8BFD8;
+  color: #2B2A29;
+  font-weight: bold; }
+#img #myModal, #img #myModal2, #img #myModal3 {
+  background-color: rgba(0, 0, 0, 0.5); }
+  #img #myModal .modal-dialog, #img #myModal2 .modal-dialog, #img #myModal3 .modal-dialog {
+    margin-top: 150px; }
+  #img #myModal .modal-title, #img #myModal2 .modal-title, #img #myModal3 .modal-title {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase; }
+
+#servicios {
+  padding: 60px 0px;
+  background-image: url("../img/fondo2.png");
+  background-attachment: fixed;
+  /*para que sea est├ítico*/
+  background-position: center; }
+  #servicios h2 {
+    color: #2D2D2C;
+    font-size: bold; }
+  #servicios hr {
+    border: 1px solid #2D2D2C;
+    width: 100%; }
+  #servicios h4 {
+    font-size: 20px;
+    color: #2D2D2C;
+    padding-bottom: 70px; }
+  #servicios img {
+    height: 100px;
+    margin-top: 100px;
+    padding-bottom: 20px; }
+  #servicios .bottom {
+    height: 100px;
+    width: 100px; }
+
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0; }
+
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0; }
+
+@media (max-width: 480px) {
+  #mainNav img {
+    width: 50%;
+    margin-top: -40px; }
+  #mainNav button {
+    border: transparent;
+    margin-right: 50px; }
+
+  header .logo_icono {
+    width: 50%; }
+  header .iconos_redes {
+    left: 8px; }
+
+  #hacemos p {
+    font-size: 12px;
+    text-align: left; }
+
+  #img {
+    width: 100%; }
+    #img h6 {
+      display: none; }
+
+  #servicios img {
+    height: 90px;
+    margin: 10px 0px 8px; }
+
+  h1, h2, h3 {
+    font-size: 20px; }
+
+  #metas .fase {
+    margin-left: 0px; }
+  #metas #row img {
+    display: none; }
+  #metas .botones h4 {
+    padding: 0px; }
+
+  #back-green .valores-text {
+    margin-top: 0px;
+    text-align: center; }
+    #back-green .valores-text img {
+      margin-right: 38%;
+      padding: 0px 0px 5px; }
+
+  .boton-flecha {
+    margin-left: 35%; }
+
+  #contacto .iconos_redes {
+    text-align: center; } }
+
+/*# sourceMappingURL=style.css.map */

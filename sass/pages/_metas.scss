@@ -1,0 +1,38 @@
+$color-green:#03947F;
+$m40:  40px 0px;
+.hr-green {
+		width: 100%;
+		border: 1px solid #03947F;
+}
+#metas {
+	padding: 80px 0px;
+
+	.margin-top40 {
+		margin: $m40;
+	}
+	.fase {
+		margin-left: 200px;
+		margin-top: 40px;
+		img {
+			width: 200px;
+		}
+	}
+	.text-green {
+		color: $color-green;
+	/*	font-size: 16px;*/
+	}
+	.margin-left100{
+		margin-left: 80px;
+	}
+	.botones {
+		margin: $m40;
+		h4 {
+			margin-top: 40px;
+			padding: 0px 150px;
+			line-height: 1.5;
+		}
+		img {
+			width: 250px;
+		}
+	}
+}

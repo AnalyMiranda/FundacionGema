@@ -1,0 +1,127 @@
+// // ----------------VARIABLES-----------------
+
+$wh: #2D2D2C;
+$fnt: 20px;
+$alt: 600px;
+$cp: 100%;
+
+// -------------- MIXINS----------------
+@mixin same {
+	background-image: url("../img/fondo2.png");
+	background-attachment: fixed;/*para que sea estático*/
+	background-position: center;
+}
+@mixin rh {
+	color: $wh;
+	font-size: bold;
+}
+@mixin pad {
+	margin-top: 40px;
+}
+@mixin pd-b {
+	margin-bottom: 40px;
+}
+@mixin mg {
+	width: cp;
+	
+}
+@mixin fwh {
+	font-size: $fnt;
+	color: $wh;
+}
+
+
+// ´--------- CÓDIGO -----------
+
+#hacemos {
+	padding: 60px 0px;
+	margin:0px;
+	@include same;
+	h2 {
+		@include rh;
+		@include pad;
+	}
+	hr {
+		border: 1px solid $wh;
+		width: $cp;
+	}
+	p {
+		@include fwh;
+		padding-top: 50px;
+	}
+}
+
+#img {
+	
+	h6 {
+		color:$wh;
+	}
+	img {
+		position: relative;
+	}
+	.mod {
+		padding: 0px;
+	}
+	button {
+		color: #FFF;
+		font-weight: bold;
+		font-size: 20px;
+		background-color: #704367;
+		padding: 10px 0px 40px;
+		border: 1px solid #D8BFD8;
+	}
+	button:hover {
+		background-color: #D8BFD8;
+		color: #2B2A29;
+		font-weight: bold;
+	}
+	#myModal, #myModal2, #myModal3 {
+		background-color: rgba(0,0,0,0.5);
+
+		.modal-dialog {
+			margin-top: 150px;
+		}
+		.modal-title {
+			text-align: center;
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+	}
+	
+}
+
+#servicios {
+	padding: 60px 0px;
+
+	@include same;
+	h2 {
+		@include rh;
+		
+	}
+	hr {
+		border: 1px solid $wh;
+		width: $cp;
+	}
+	h4 {
+		@include fwh;
+		padding-bottom: 70px;
+	}
+	img {
+		height: 100px;
+		margin-top: 100px;
+		padding-bottom: 20px;
+	}
+	.bottom {
+		height: 100px;
+		width: 100px;
+	}
+}
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}

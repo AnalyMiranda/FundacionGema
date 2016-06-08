@@ -1,0 +1,52 @@
+#contacto {
+	background-image: url(../img/fondo2.png);
+	background-attachment: fixed;/*para que sea estático*/
+	background-position: center;
+	padding: 70px 0px;
+
+	.well {
+		margin-top: 40px;
+		background-color: #2D2D2C;
+		border: transparent;
+
+		img {
+			width: 80px;
+			padding: 20px 0px;
+		}
+		
+	}
+	.mapa {
+		margin-top: 40px;
+		width: 100%;
+		height: 200px;
+	}
+	.iconos {
+		color: #fff;
+		margin: 40px 0px;
+		line-height: 2.5;
+
+		span {
+			margin-left: 10px;
+		}
+	}
+	.iconos_redes {
+		font-size: 35px;
+
+		i {
+			color: #2D2D2C;
+		}
+		.fa-facebook-square:hover {
+            color: #3b5998;
+        }
+        .fa-twitter-square:hover {
+			color: #55acee;
+		}
+		.fa-google-plus-square:hover {
+			color: #dc4e41;
+		}
+	}
+	h2 {
+		color: #2D2D2C;
+	}
+}
+

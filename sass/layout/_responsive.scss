@@ -1,0 +1,72 @@
+@media(max-width:480px) {
+    #mainNav {
+        img {
+            width: 50%;
+            margin-top: -40px;
+        }
+        button {
+            border: transparent;
+            margin-right: 50px;
+        }
+    }
+    header {
+        .logo_icono {
+            width: 50%;
+        }
+        .iconos_redes {
+            left: 8px;
+        }
+    }
+    #hacemos {
+        p {
+            font-size: 12px;
+            text-align: left;
+        }
+    }
+    #img {
+        width: 100%;
+        h6 {
+            display: none;
+        }
+    }
+    #servicios {
+        img {
+            height: 90px;
+            margin: 10px 0px 8px;
+        }
+    }
+    h1, h2, h3 {
+    font-size: 20px;
+    }
+    #metas {
+        .fase {
+            margin-left: 0px;
+        }
+        #row img {
+            display: none;
+        }
+        .botones {
+            h4 {
+                padding: 0px;
+            }
+        }
+    }
+    #back-green {
+        .valores-text {
+            margin-top: 0px;
+            text-align: center;
+            img {
+                margin-right: 38%;
+                padding: 0px 0px 5px;
+            }
+        }
+    }
+    .boton-flecha {
+        margin-left: 35%;
+    }
+    #contacto {
+        .iconos_redes {
+            text-align: center; 
+        }
+    }
+}

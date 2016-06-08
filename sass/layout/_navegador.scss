@@ -1,0 +1,22 @@
+#mainNav {
+    background-color: #280125;
+    border: transparent;
+    padding: 25px 0px 20px;
+
+    img {
+        width: 200px;
+        margin-top: -30px;
+        margin-left: 20px;
+    }
+    a {
+        color: #eee;
+
+        &:hover {
+            color: #00A088;
+        }
+        &.page-scroll {
+            background-color: transparent;
+        }
+    }
+}
+
